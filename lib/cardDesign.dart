@@ -35,8 +35,7 @@ class InnerScreen extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => InvitationDetails(
-                      selectedImagePath:
-                          imagePaths[index], // Pass selected image path
+                      selectedImagePath: imagePaths[index], // Pass selected image path
                     ),
                   ),
                 );
